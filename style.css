@@ -1,6 +1,7 @@
 body {
     max-width: 1200px;
     margin: 0 auto; /* Centers the content horizontally */
+    
   }
   
   /* Use flexbox to align and justify content */
@@ -8,4 +9,16 @@ body {
     display: flex;
     align-content: center;
     justify-content: center;
+  }
+
+  .navbar {
+    display: inline-flex;
+    align-items: center;
+    gap: 140px;
+  }
+  
+  .navbar-link {
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
   }
